@@ -10,16 +10,15 @@
 	        },
     	    {
         	    "type": "label",
-            	"text": "__Say hello__ on the homepage"
+            	"text": "Display cover content on the homepage"
 	        }
 		]
 	},
 	{
 		"id": "show_nav",
-		"class": "main_optinos check",
+		"class": "main_options check",
 		"available": true,
-		"value": false,
-		
+		"value": false
 	},
 	{
 		"id": "thumb_size",

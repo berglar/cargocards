@@ -1,9 +1,9 @@
 /**
- * Copernicus
+ * CargoCards
  */
  
 [data-columnize] {
-	visibility: hidden;
+	visibility: inline-block;
 }
 
 
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-	background: #DDDDDD;
+	background: #ffffff;
 	color: #666666;
 	font-family: 'Georgia', serif;
 	font-size: 17px;
@@ -47,6 +47,57 @@ iframe {
 img {
 	border: 0;
 	padding: 0;
+}
+
+/**
+ * cover text and navigation
+ */
+
+ .site_cover {
+ 	font-family: 'YogaSansWeb', serif;
+
+ }
+
+ .cover_title_text{
+    font-size: 80px;
+    width: 100%;
+    line-height: 96%;
+    color: black;
+    text-align: right;
+    left: 0px;
+}
+
+#cover_navigation{
+    width: 80%;
+    margin: auto;
+}
+
+.cover_nav_current{
+	float: left;
+    width: 33%;
+}
+
+.cover_nav_recent_best{
+	float: right;
+    width: 66%;
+}
+
+#cover_nav_recent_only{
+	float: left;
+    width: 50%;
+}
+
+#cover_nav_best_only{
+	float: right;
+    width: 50%;
+}
+
+.cover_nav_title a{
+
+}
+
+.cover_nav_list a{
+
 }
 
 /**
@@ -1514,7 +1565,8 @@ a.freshbox_nav_button.disabled .nav_svg {
 .freshbox_navigation {
 	margin-left: -43px;
 	width: 150px;
-} 
+}
+ 
 
 a.freshbox_nav_button#fullscreen_zoom {
 	margin-left: 14px;
@@ -1774,6 +1826,11 @@ body.mobile {
     margin: 12px 30px 0;
 }
 
+@font-face {
+    font-family: 'YogaSansWeb';
+    src: url("http://assets.cdn.cargocollective.com/181719/1354228333430854461948815519255629824/YogaSansWeb.woff?5b142d8718") format('woff');
+  }
+
 @media screen and (min-width: 1200px) {
 	
     .project_title, .project_content, .search {
@@ -1815,7 +1872,8 @@ body.mobile {
 	
 	.header_image, .header_image a {
 		margin: 20px auto 0;
-	}	
+	}
+	
 	
 }
 

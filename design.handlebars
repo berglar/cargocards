@@ -128,15 +128,44 @@
 		
 		{{#if display_options.cover_content}}
 		<div id="custom_view" data-view="cover" data-set="Site">
-			
-				hello world
-		</div>
-		    Hello!
-		{{else}}
-		    Good bye!
-		{{/if}}
+			<div class="site_cover">
+				<div class="site_cover_wrapper">
+					<div class="cover_title_text">
+						Larisa Berger is a technologist and creative type based in 	Cambridge, MA.
+					</div>
+					<div id="cover_navigation">
+						<div class="cover_nav_current">
+							<div class="cover_nav_title"><a href="#">Fresh</a></div>
+							<ul class="cover_nav_list">
+								<li><a href="#">Catalog Of A Loss</a></li>
+								<li><a href="#">Comedy Hack Day SF 2015</a></li>
+							</ul>
+						</div>
 
-		{{{ site.custom_html }}}
+						<div class="cover_nav_recent_best">
+							<div id="cover_nav_recent_only">
+								<div class="cover_nav_title"><a href="#">Present-ly</a></div>
+								<ul class="cover_nav_list">
+									<li><a href="#">Experiments with the Monome Grid</a></li>
+									<li><a href="#">DataLore 2015</a></li>
+									<li><a href="#">Audio Interfaces for MOTU</a></li>
+								</ul>
+							</div>						
+							<div id="cover_nav_best_only">
+								<div class="cover_nav_title"><a href="#">Perfect(ed)</a></div>
+								<ul class="cover_nav_list">
+									<li><a href="#">MIT Creative Writing Thesis Project</a></li>
+									<li><a href="#">Music Education Game for 	Sifteo Cubes</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{else}}
+		 	In place of cover content.
+		{{/if}}
 			
 		<div class="header_max_width">
 			<div class="header_image_wrapper">
