@@ -28,6 +28,7 @@
 		{{! Navigation }}
 		
 		{{#unless config.is_phone}}
+			{{#if display_options.show_nav}}
 			<div class="navigation_wrapper">			
 				<div class="site_header">
 					<div class="navigation">
@@ -70,7 +71,8 @@
 					</div>
 					
 				</div>
-			</div>	
+			</div>
+			{{/if}}	
 		{{/unless}}
 			
 		{{#if config.is_phone}}	
@@ -124,7 +126,17 @@
 			</div>
 		{{/if}}	
 		
-	
+		{{#if display_options.cover_content}}
+		<div id="custom_view" data-view="cover" data-set="Site">
+			
+				hello world
+		</div>
+		    Hello!
+		{{else}}
+		    Good bye!
+		{{/if}}
+
+		{{{ site.custom_html }}}
 			
 		<div class="header_max_width">
 			<div class="header_image_wrapper">

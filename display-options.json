@@ -2,7 +2,7 @@
 	{
 		"id": "cover_content",
 		"class": "main_options check",
-		"avilable": true,
+		"available": true,
 		"value": true,
 		 "segments": [
         	{
@@ -12,7 +12,16 @@
         	    "type": "label",
             	"text": "__Say hello__ on the homepage"
 	        }
-		],
+		]
+	},
+	{
+		"id": "show_nav",
+		"class": "main_optinos check",
+		"available": true,
+		"value": false,
+		
+	},
+	{
 		"id": "thumb_size",
 		"class": "main_options input",
 		"available": true,
